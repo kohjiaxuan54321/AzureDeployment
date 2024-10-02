@@ -43,8 +43,29 @@ Follow these steps to set up and run the project:
    cd azure-functions-project\folder
 2. Install Go Modules:
    ```bash
-   //This command fetches all the dependencies listed in your go.mod file.
    go get ./...
 3. Install Azure Functions Core Tools
    ```bash
    npm install -g azure-functions-core-tools@4 --unsafe-perm true
+
+#### Configuration
+1. Create a .env File
+   '''bash
+   AZURE_SUBSCRIPTION_ID=your-azure-subscription-id
+   AZURE_LOCATION=westus
+   AZURE_RESOURCE_GROUP_NAME=your-resource-group-name
+   AZURE_STORAGE_ACCOUNT_NAME=your-storage-account-name
+   AZURE_FUNCTION_APP_NAME=your-function-app-name
+   
+   FUNCTION_NAME=YourFunctionName
+   FUNCTION_TEMPLATE=HTTP trigger
+   AUTH_LEVEL=anonymous
+   
+   KEEP_RESOURCE=1
+
+2. Create a New Function App Directory for Each Run
+   '''bash
+   mkdir C:\Project\jx\functionapp_<unique_identifier>
+
+
+   
