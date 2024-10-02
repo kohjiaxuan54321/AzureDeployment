@@ -33,7 +33,6 @@ Download and run the [Azure CLI MSI installer](https://aka.ms/installazurecliwin
 1. Use Homebrew:
    ```bash
    brew update && brew install azure-cli
-## Installation
 
 ## Installation
 Follow these steps to set up and run the project:
@@ -44,6 +43,7 @@ Follow these steps to set up and run the project:
    cd azure-functions-project\folder
 2. Install Go Modules:
    ```bash
+   //This command fetches all the dependencies listed in your go.mod file.
    go get ./...
 3. Install Azure Functions Core Tools
    ```bash
