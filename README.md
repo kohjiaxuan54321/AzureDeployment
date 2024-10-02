@@ -49,7 +49,7 @@ Follow these steps to set up and run the project:
    npm install -g azure-functions-core-tools@4 --unsafe-perm true
 
 #### Configuration
-1. Create a .env File
+1. Create a .env File:
    '''bash
    AZURE_SUBSCRIPTION_ID=your-azure-subscription-id
    AZURE_LOCATION=westus
