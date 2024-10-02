@@ -37,20 +37,18 @@ Download and run the [Azure CLI MSI installer](https://aka.ms/installazurecliwin
 
 Follow these steps to set up and run the project:
 
-### 1. Clone the Repository
+1. Clone the Repository
 Clone the repository to your local machine using Git:
-
-1. ```bash
+   ```bash
   git clone https://github.com/yourusername/azure-functions-go-project.git
   cd <your project folder>
 
-### 2. Install Go Modules
+2. Install Go Modules
 Ensure all necessary Go modules are installed by running:
-
-1. ```bash
+   ```bash
    go get ./...
-   
+
 This command fetches all the dependencies listed in your go.mod file.
 
-### 3. Install Azure Functions Core Tools
+3. Install Azure Functions Core Tools
 
