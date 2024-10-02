@@ -50,7 +50,7 @@ Follow these steps to set up and run the project:
 
 ## Configuration
 
-1. Create a .env File
+1. Create a env File
    '''bash
 
 
