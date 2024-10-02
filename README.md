@@ -34,15 +34,3 @@ Use Homebrew:
 
 ```bash
 brew update && brew install azure-cli
-
-## Installation
-
-Follow these steps to set up and run the project:
-
-### 1. Clone the Repository
-
-Clone the repository to your local machine using Git:
-
-```bash
-git clone https://github.com/yourusername/azure-functions-go-project.git
-cd azure-functions-go-project/jx
