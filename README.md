@@ -38,9 +38,10 @@ Download and run the [Azure CLI MSI installer](https://aka.ms/installazurecliwin
 Follow these steps to set up and run the project:
 
 1. Clone the repository:
+   Clone the repository to your local machine using Git:
    ```bash
    git clone https://github.com/yourusername/azure-functions-go-project.git
-   cd azure-functions-project\folder
+   cd azure-functions-project\jx
 2. Install Go Modules:
    ```bash
    go get ./...
@@ -50,7 +51,7 @@ Follow these steps to set up and run the project:
    
 ## Configuration
 
-1. Create env file:
+1. Create .env file:
    ```bash
    AZURE_SUBSCRIPTION_ID=your-azure-subscription-id
    AZURE_LOCATION=westus
@@ -67,3 +68,13 @@ Follow these steps to set up and run the project:
 2. Create a New Function App Directory for Each Run
    ```bash
    mkdir C:\Project\jx\functionapp_<unique_identifier>
+
+## Usage
+
+1. Navigate to the Project Directory:
+   ```bash
+   cd C:\Project\jx
+
+
+
+   
