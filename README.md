@@ -40,7 +40,7 @@ Follow these steps to set up and run the project:
 1. Clone the repository to your local machine using Git:
    ```bash
    git clone https://github.com/yourusername/azure-functions-go-project.git
-   cd Project\jx
+   cd <your project directory>
 2. Install Go Modules:
    ```bash
    go get ./...
